@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form
+    {
+        text-align: center;
+        background-color: rgb(182,142,167);
+        margin-right: 200px;
+        margin-left: 200px;
+        border-radius: 10px;
+    }
+    h2
+    {
+        text-align: center;
+    }
+    label
+    {
+        display: block;
+    }
+    input[type=text],
+    input[type=tel],
+    input[type=email],
+    textarea,
+    select
+    {
+        border-radius: 10px;
+    }
+    input[type=submit]
+    {
+        background-color: rgb(105,38,87);
+        cursor: pointer;
+    }
+    input[type=submit]:hover{
+        background-color: rgb(128,32,60);
+    }
+    </style>
+<body>
+    <h2>Registration Form</h2>
+    <form action="https://formspree.io/f/mvojnreb" method="post">
+        <label>Name</label>
+        <input type="text" name="name" required>
+        <label>Email</label>
+        <input type="email" email="email" required>
+        <label>Phone Number</label>
+        <input type="tel" phoneNumber="phoneNumber" required>
+        <label>gender</label>
+        <select>
+            <option value="Male">Male</option>
+            <option>
+                <option value="Female">Female</option>
+                <option value="Others">Others</option>
+        </select>
+        <label>Zipcode</label>
+        <input type="text" Zipcode=""Zipcode required>
+        <label>Time</label>
+        <input type="time" time="time" required>
+        <label>Student</label>
+        <input type="Button" student="Button" required>
+        <label>Indian</label>
+        <input type="checkbox" indian="checkbox" required>
+        <label>Favourite colour</label>
+        <input type="color" favourite colour="color" required>
+        <label>DOB</label>
+        <input type="date" dob=""date" required>
+        <label>Present Dt and Time</label>
+        <input type="datetime-local" Present Dt and time="datetime-local"required>
+        <label>Resume</label>
+        <input type="file" resume="'file" required>
+        <label>Age</label>
+        <input type="hidden" age="hidden" required>
+        <label>Picture</label>
+        <input type="image" Picture="image">
+        <img src="flow.jpeg" height="100px" width="100px" >
+        <label>Passed out month</label>
+        <input type="month" Passed out month="month" required>
+        <label>Backlogs</label>
+        <input type="number" backlogs="number" required>
+        <label>Password</label>
+        <input type="password" password="password" required>
+        <label>Graduated</label>
+        <input type="radio" graduated="radio" >
+        <label>Reset</label>
+        <input type="reset" reset="reset" >
+        <label>Search</label>
+        <input type="search" search="search">
+        <label>Time</label>
+        <input type="time" time="time" required>
+        <label>Url</label>
+        <input type="url" url="url" required>
+        <label>Week</label>
+        <input type="week" week="week" required>
+        <label>About</label>
+        <textarea name="about"></textarea>
+        <label>Submit</label>
+        <input type="submit" value="register">
+
+    </form>
+</body>
+</html>
